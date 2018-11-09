@@ -16,3 +16,4 @@ Document Frequency (TF-IDF)approach is also used. The TF-IDF can be seen as a we
   - Support Vector Machine with linear kernel
   - Random Forest (no hyperparameter tuning applied)
   - Logistic Regression with TF-IDF vectorizer
+- **Please note:** machine learning classifiers in the context of text classification are limited by their need to have a representative training/testset, where manually labelling the data requires significant amounts of time. 
