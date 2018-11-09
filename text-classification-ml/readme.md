@@ -4,7 +4,7 @@ An implementation of various machine learning classifiers to classify text
 
 ## Overview
 
-- This repository contains an implementation of several common text classification machine learning models that apply a binary classification to a Twitter dataset
+- This repository contains a Jupyter notebook with the implementation of several common text classification machine learning models that apply a binary classification to a Twitter dataset. 
 - To use text in machine learning classifiers, it must be represented in a numerical form. Therefore, a bag-of-words approach is taken as default in which a word’s frequency is vectorized and used as a feature
 to train the classifier (Jurafsky and Martin 2009). 
 - Considering the size of the sample set, the set is split into a training (80%) and testing set (20%) and additionally, k-fold cross-validation is applied for k = [3,5,10]. 
